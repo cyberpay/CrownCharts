@@ -1,0 +1,242 @@
+<!doctype html>
+<title>Example</title>
+<style>
+* {
+  box-sizing: border-box; 
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0;
+}
+#main {
+  display: flex;
+  flex: 1;
+}
+#main > article {
+  flex: 1;
+}
+#main > nav, 
+#main > aside {
+  flex: 0 0 20vw;
+  background: white;
+}
+#main > nav {
+  order: -1;
+}
+header, footer {
+  background: white;
+  height: auto;
+}
+footer {
+  background: white;
+  height: auto;
+}
+header, footer, article, aside {
+  padding: 1em;
+}
+nav {
+  padding: 1em;
+}
+</style>
+<body>
+  <header>
+ <div style="width: 100%; height:62px; background-color: #FFFFFF; overflow:hidden; box-sizing: border-box; border: 1px solid #56667F; border-radius: 4px; text-align: right; line-height:14px; block-size:62px; font-size: 12px; box-sizing:content-box; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #56667F;padding:1px;padding: 0px; margin: 0px;"><div style="height:40px;"><iframe src="https://widget.coinlib.io/widget?type=horizontal_v2&theme=light&pref_coin_id=1505&invert_hover=no" width="100%" height="36" scrolling="auto" marginwidth="0" marginheight="0" frameborder="0" border="0" style="border:0;margin:0;padding:0;"></iframe></div><div style="color: #FFFFFF; line-height: 14px; font-weight: 400; font-size: 11px; box-sizing:content-box; margin: 5px 6px 10px 0px; font-family: Verdana, Tahoma, Arial, sans-serif;">powered by&nbsp;<a href="https://coinlib.io" target="_blank" style="font-weight: 500; color: #FFFFFF; text-decoration:none; font-size: 11px;">Coinlib</a></div></div>
+ <!-- TradingView Widget BEGIN -->
+  <div class="tradingview-widget-container">
+   <div class="tradingview-widget-container__widget"></div>
+    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"><span class="blue-      text">Quotes</span></a> by TradingView</div>
+      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+   {
+    "symbols": [
+    {
+      "description": "CRW/BTC",
+      "proName": "BITTREX:CRWBTC"
+    },
+    {
+      "description": "CRW/USD",
+      "proName": "BITTREX:CRWUSD"
+    },
+    {
+      "description": "BTC/USD - Bitfinex",
+      "proName": "BITFINEX:BTCUSD"
+    },
+    {
+      "description": "BTC/GBP - Bitfinex",
+      "proName": "BITFINEX:BTCGBP"
+    }
+  ],
+  "locale": "en"
+}
+       </script>
+   </div>
+<!-- TradingView Widget END --></header>
+  <div id="main">
+    <article>
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div id="tradingview_d9dce"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/BITTREX-CRWBTC/" rel="noopener" target="_blank"><span class="blue-text">CRWBTC chart</span></a> by TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+  <script type="text/javascript">
+  new TradingView.widget(
+  {
+  "width": 1080,
+  "height": 410,
+  "symbol": "BITTREX:CRWBTC",
+  "interval": "240",
+  "timezone": "Etc/UTC",
+  "theme": "Light",
+  "style": "1",
+  "locale": "en",
+  "toolbar_bg": "rgba(242, 242, 242, 1)",
+  "enable_publishing": false,
+  "withdateranges": true,
+  "hide_side_toolbar": false,
+  "allow_symbol_change": true,
+  "studies": [
+    "MASimple@tv-basicstudies"
+  ],
+  "container_id": "tradingview_d9dce"
+}
+  );
+  </script>
+</div>
+<!-- TradingView Widget END -->
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div id="tradingview_4e098"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/BITTREX-CRWUSD/" rel="noopener" target="_blank"><span class="blue-text">CRWUSD chart</span></a> by TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+  <script type="text/javascript">
+  new TradingView.widget(
+  {
+  "width": 1080,
+  "height": 420,
+  "symbol": "BITTREX:CRWUSD",
+  "interval": "60",
+  "timezone": "Etc/UTC",
+  "theme": "Light",
+  "style": "1",
+  "locale": "en",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "withdateranges": true,
+  "hide_side_toolbar": false,
+  "allow_symbol_change": true,
+  "studies": [
+    "MASimple@tv-basicstudies",
+    "Volume@tv-basicstudies"
+  ],
+  "container_id": "tradingview_4e098"
+}
+  );
+  </script>
+</div>
+<!-- TradingView Widget END -->
+    </article>
+    <nav>
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/BITTREX-CRWBTC/technicals/" rel="noopener" target="_blank"><span class="blue-text">Technical Analysis for CRWBTC</span></a> by TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-technical-analysis.js" async>
+  {
+  "width": "385",
+  "height": "385",
+  "symbol": "BITTREX:CRWBTC",
+  "locale": "en",
+  "interval": "1D"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/BITFINEX-BTCUSD/technicals/" rel="noopener" target="_blank"><span class="blue-text">Technical Analysis for BTCUSD</span></a> by TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-technical-analysis.js" async>
+  {
+  "width": "385",
+  "height": "385",
+  "symbol": "BITFINEX:BTCUSD",
+  "locale": "en",
+  "interval": "1D"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+    
+    </nav>
+    <aside>
+      <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/indices/" rel="noopener" target="_blank"><span class="blue-text">Crypto</span></a> <span class="blue-text">and</span> <a href="https://www.tradingview.com/markets/futures/" rel="noopener" target="_blank"><span class="blue-text">Commodities</span></a> by TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+  {
+  "showChart": true,
+  "locale": "en",
+  "largeChartUrl": "",
+  "width": "300",
+  "height": "600",
+  "plotLineColorGrowing": "rgba(0, 255, 0, 1)",
+  "plotLineColorFalling": "rgba(255, 0, 0, 1)",
+  "gridLineColor": "rgba(182, 182, 182, 1)",
+  "scaleFontColor": "rgba(214, 216, 224, 1)",
+  "belowLineFillColorGrowing": "rgba(60, 188, 152, 0.05)",
+  "belowLineFillColorFalling": "rgba(255, 74, 104, 0.05)",
+  "symbolActiveColor": "rgba(242, 250, 254, 1)",
+  "tabs": [
+    {
+      "title": "Crypto",
+      "symbols": [
+        {
+          "s": "BITTREX:CRWBTC",
+          "d": "CRW/BTC - Bittrex"
+        },
+        {
+          "s": "BITFINEX:BTCUSD",
+          "d": "BTC/USD - Bitfinex"
+        },
+        {
+          "s": "BITFINEX:ETHBTC",
+          "d": "ETH/BTC - Bitfinex"
+        },
+        {
+          "s": "BITTREX:DASHBTC",
+          "d": "DASH/BTC - Bittrex"
+        },
+        {
+          "s": "BITTREX:PIVXBTC",
+          "d": "PIVX/BTC - Bittrex"
+        }
+      ],
+      "originalTitle": "Indices"
+    },
+    {
+      "title": "Commodities",
+      "symbols": [
+        {
+          "s": "TVC:GOLD",
+          "d": "Gold Spot"
+        },
+        {
+          "s": "TVC:SILVER",
+          "d": "Silver Spot"
+        }
+      ],
+      "originalTitle": "Commodities"
+    }
+  ]
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+      <div style="width: 250px; height:335px; background-color: #FAFAFA; overflow:hidden; box-sizing: border-box; border: 1px solid #56667F; border-radius: 4px; text-align: right; line-height:14px; block-size:335px; font-size: 12px; box-sizing:content-box; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #56667F;margin: 0;width: 250px;padding:1px;padding: 0px; margin: 0px;"><div style="height:315px;"><iframe src="https://widget.coinlib.io/widget?type=converter&theme=light" width="250" height="310" scrolling="auto" marginwidth="0" marginheight="0" frameborder="0" border="0" style="border:0;margin:0;padding:0;"></iframe></div><div style="color: #FFFFFF; line-height: 14px; font-weight: 400; font-size: 11px; box-sizing:content-box; margin: 3px 6px 10px 0px; font-family: Verdana, Tahoma, Arial, sans-serif;">powered by&nbsp;<a href="https://coinlib.io" target="_blank" style="font-weight: 500; color: #FFFFFF; text-decoration:none; font-size: 11px;">Coinlib</a></div></div>
+    
+    </aside>
+  </div>
+  <footer>Footer</footer>
+</body>s
